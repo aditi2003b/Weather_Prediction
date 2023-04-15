@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: url('');
+            background-repeat: no-repeat;
+            background-size: cover;
+            scroll-behavior: smooth;
+        }
+        *{
+            margin: 0;
+            padding: -2;
+        }
+        .navbar{
+            display: flex;
+        }
+        .nav-list{
+            width: 100%;
+            background-color:#00627d;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .logo{
+           width: 15%;
+           display: flex; 
+           justify-content: center;
+           align-items: center;
+        }
+        .navbar ul li a:hover{/* by hovering we can see if we move cursor one home it looks dark red with background white */
+            color: white;
+            background-color: rgb(31, 196, 202);
+        }
+        .nav-list li{
+            list-style: none;
+            padding: 23px 28px;
+        }
+        .nav-list li a{
+            text-decoration: none;
+            color: antiquewhite;
+            font-size: 18px;
+            font-family: 'Oswald', sans-serif;
+        }
+        .nav-list li a:hover{
+            color:rgb(13, 248, 83);
+        }
+        #search{
+            padding: 5px;
+            margin-right: 20px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+            margin-top: 4%;
+        }
+        .background{
+            background:rgba(0,0,0,0.7)url('/energy\jpg2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .btn{
+            cursor: pointer;
+            margin-top: 4%;
+            margin-right: 20px;
+        }
+        .box-main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           /* align-items: ;*/
+            text-align: center;
+            color: rgb(0, 0, 0,0.7);
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 12%;
+            margin-right: 2%;
+            font-size: 20px;
+            font-weight: 2px;
+        }
+        .btn:hover{
+            color: rgb(68, 0, 255);
+        }
+        .mg{
+            padding-top: 35px;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="background firstsection"></section>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="pg3.html"> What is Weather prediction</a></li>
+            <li><a href="pg2.html">Benifits</a></li>
+            <li><a href="pg4.html">Types</a></li>
+            <li><a href="pg6.html">Team Members</a></li>
+        </ul>
+    </nav>
+    <div class="box-main">
+        <h1 class="quote">When there are patches of clouds in the sky and you can see the sun, it is not going to storm.</h1>
+        <p class="mg">Weather Forcasting and its Benifits</p>
+        <div><img src="home.jpg" alt=""></div>
+    <!-- </div>
+    <div class="rightnav">
+        <input type="text" name="Search" id="search">
+        <button class="btn btn-sn">Search</button>
+    </div> -->
+    </section>
+
+
+</body>
+</html>

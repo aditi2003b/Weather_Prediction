@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Yatra+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        background-color: #0E8388;
+    }
+    .heading{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .heading h1{
+        font-size: 50px;
+        color: #2C3333;
+        font-family: 'Yatra One', cursive;
+        margin-bottom: 10px;
+    }
+    .heading p{
+        font-size: 25px;
+        color: #CBE4DE;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 60px;
+    }
+    .about-us{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .about-us img{
+        flex: 0 40%;
+        max-width: 40%;
+        border-radius: 24px;
+        height: auto;
+        border: 16px solid #2E4F4F;
+}
+    .content{
+        padding: 45px;
+    }
+    .content h2{
+        color: #2C3333;
+        font-family: 'Yatra One', cursive;
+        font-size: 32px;
+        margin: 15px 0px;
+        justify-content: center;
+    }
+    .content p{
+        color: whitesmoke;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 15px 0px;
+    }
+    .read-more-btn{
+        display: inline-block;
+        color: #fff;
+        background-color: #0084ff;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: 0.2s ease;
+    }
+    .read-more-btn:hover{
+        background-color: #006dd6;
+    }
+    @media(max-width: 768px){
+        .about-us{
+            flex-direction: column;
+        }
+        .about-us img{
+            flex: 0 100%;
+            max-width: 100%;
+        }
+        .content{
+            float: 0 100%;
+            max-width: 100%;
+            padding: 15px;
+        }
+    }
+</style>
+<body>
+    <div class="heading">
+        <h1>What Is Weather Prediction</h1>
+        <p>Weather conditions to cool off, bring a serpent raincoat.</p>
+    </div>
+    <section class="about-us">
+        <div class="content">
+            <h2>Weather Prediction</h2>
+            <p>Weather prediction, also known as weather forecasting, is the process of estimating the future weather conditions for a specific location and time. This involves analyzing current weather patterns, atmospheric pressure, temperature, humidity, and other relevant factors, and then using mathematical models and computer simulations to predict how these conditions will change over time.
+
+                Weather predictions can range from short-term forecasts, such as hourly or daily forecasts, to long-term forecasts, which may cover weeks or months in advance. These predictions are used by various industries and organizations, including agriculture, transportation, emergency services, and more, to help plan and prepare for weather-related events.
+                
+                It's important to note that weather predictions are not always 100% accurate and can be affected by various factors such as the complexity of the atmosphere, the limitations of data collection and modeling, and unforeseen events. However, they are still very useful tools for predicting weather patterns and helping people prepare for potential weather-related risks.</p>
+            <button class="read-more-btn" onclick="location.href='https://en.wikipedia.org/wiki/Weather_forecasting'">Know More</button>
+            <button class="read-more-btn"onclick="location.href='/index.html'">Home</button>
+            
+        </div>
+        <img src="whp.jpg" alt="">
+    </section>
+</body>
+</html>

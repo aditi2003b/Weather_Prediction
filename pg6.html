@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap">
+    <title>Team members</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing:border-box ;
+            font-family: "Poppins", sans-serif;
+        }
+        body{
+            background-color: #f5f5f5;
+        }
+        .row{
+            /* border: 1px solid orange; */
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2em 1em;
+            text-align: center;
+        }
+        .column{
+            width: 100%;
+            /* border: 1px solid black; */
+            padding: 0.5em 0;
+        }
+        h1{
+           width: 100%;
+           text-align: center;
+           font-size: 3.5em;
+           color: #1f003b;
+        }
+        .card{
+            box-shadow: 0 0 2.2em rgba(25, 0, 58,0.15);
+            padding: 3.5em 1em;
+            border-radius: 0.6em;
+            color: #1f003b;
+            cursor: pointer;
+            transition: 0.3s;
+            background-color: #ffffff;
+        }
+        .card .img-container{
+            width: 7.1em;
+            /* height: em; */
+            background-color: #a993ff;
+            padding: 0.5em;
+            border-radius: 20%;
+            margin: 0 auto 2em auto;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 50%;
+        }
+        .card h3{
+            font-weight: 500;
+        }
+        .card p{
+            font-weight: 300;
+            text-transform: uppercase;
+            margin: 0.5em 0 2em 0;
+            letter-spacing: 2px;
+        }
+        .icons{
+            width: 50%;
+            min-width: 180px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .card a{
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.4em;
+        }
+        .card:hover{
+            background: linear-gradient(#6045ea, #8567f7);
+            color: #ffffff;
+        }
+        .card:hover .img-container{
+            transform: scale(1.15);
+        }
+        .row .btn{
+            margin: 40px 0 70px 0;
+            background: #7d03ff;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .row .btn a{
+           color: #fff;
+           font-size: 1.2em;
+           text-decoration: none;
+           font-weight: bolder;
+           letter-spacing: 3px;
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+        }
+        @media screen and (min-width: 768px){
+            section{
+                padding: 1em;
+            }
+            .card{
+                padding: 5em 1em;
+            }
+            .column{
+                flex: 0 0 33.33;
+                max-width: 33.33%;
+                padding: 0 1em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="row">
+            <h1>Our Team</h1>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="mee.jpeg" alt="" >
+                    </div>
+                    <h3>Aditi Gupta</h3>
+                    <p>Team member</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="WhatsApp Image 2023-04-14 at 5.20.29 AM.jpeg" alt="" >
+                        </div>
+                        <h3>Kaviya G</h3>
+                        <p>Team member</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="img-container">
+                                <img src="WhatsApp Image 2023-04-14 at 5.27.56 AM.jpeg" alt="" >
+                            </div>
+                            <h3>Nitish Jha</h3>
+                            <p>Team member</p>
+                            <div class="icons">
+                                <a href="#">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-github" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="/index.html">Home</a>
+                    </div>
+        </div>
+    </section>
+</body>
+</html>
